@@ -20,3 +20,15 @@ const multiplesOfThree = () => {
 }
 
 multiplesOfThree();
+
+// 3. Multiples of Three or Five
+// Function written by Sadia
+const multiplesOfThreeOrFive = () => {
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0 || i % 5 === 0) {
+            console.Log(i);
+        }
+    }
+}
+
+multiplesOfThreeOrFive();
