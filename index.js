@@ -64,6 +64,18 @@ const multiply = (num1, num2) => {
 };
 console.log(multiply(2, 4))
 
+// isNegative
+const isNegative = (value) => {
+    if (typeof value === "number" && value < 0) {
+        console.log(true);
+    } else {
+        console.log(false)
+    }
+};
+
+isNegative(10)
+isNegative(-10)
+isNegative('hey')
 
 
 function add(a, b) {
