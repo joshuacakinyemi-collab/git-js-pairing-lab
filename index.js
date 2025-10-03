@@ -26,9 +26,23 @@ multiplesOfThree();
 const multiplesOfThreeOrFive = () => {
     for (let i = 1; i <= 100; i++) {
         if (i % 3 === 0 || i % 5 === 0) {
-            console.Log(i);
+            console.log(i);
         }
     }
 }
 
 multiplesOfThreeOrFive();
+function add(a, b) {
+    if (a === b) {
+        return (a + b) * 3;
+    } else {
+        return a + b;
+    }
+}
+
+// Example calls:
+console.log(add(2, 4));   // 6
+console.log(add(10, -5)); // 5
+console.log(add(3, 7.5)); // 10.5
+console.log(add(5, 5));   // 30
+console.log(add(6, 6));   // 36
