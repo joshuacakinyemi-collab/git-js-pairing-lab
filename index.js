@@ -63,3 +63,34 @@ const multiply = (num1, num2) => {
 
 };
 console.log(multiply(2, 4))
+
+
+
+function add(a, b) {
+    if (a === b) {
+        return 3 * (a + b); // triple the sum if numbers are equal
+    } else {
+        return a + b;       // normal sum otherwise
+    }
+}
+
+// Test examples
+console.log(add(2, 4));    // 6
+console.log(add(10, -5));  // 5
+console.log(add(3, 7.5));  // 10.5
+console.log(add(5, 5));    // 30
+console.log(add(6, 6));    // 36
+
+
+// Name: Sadia Islam
+// Question: 9
+
+function betweenTwentyAndFourty(num) {
+    return num > 20 && num < 40; // true if num is strictly between 20 and 40
+}
+
+// Test examples
+console.log(betweenTwentyAndFourty(20)); // false
+console.log(betweenTwentyAndFourty(21)); // true
+console.log(betweenTwentyAndFourty(39)); // true
+console.log(betweenTwentyAndFourty(40)); // false
