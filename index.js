@@ -112,3 +112,20 @@ console.log(betweenTwentyAndFourty(20)); // false
 console.log(betweenTwentyAndFourty(21)); // true
 console.log(betweenTwentyAndFourty(39)); // true
 console.log(betweenTwentyAndFourty(40)); // false
+
+// lagest
+
+const largest = (a, b, c) => {
+    const number = [a, b, c]
+    let low = 0
+    for (let n = 0; n < number.length; n += 1) {
+        if (number[n] >= low) {
+            low = number[n]
+        }
+    }
+    console.log(low)
+};
+
+largest(4, 6, 8)
+largest(30, 22, 17)
+largest(41, 108, 86)
