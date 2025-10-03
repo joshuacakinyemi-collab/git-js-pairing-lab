@@ -46,3 +46,14 @@ console.log(add(10, -5)); // 5
 console.log(add(3, 7.5)); // 10.5
 console.log(add(5, 5));   // 30
 console.log(add(6, 6));   // 36
+
+// untilNum
+const untilNum = (number) => {
+    for (let i = 1; i <= number; i++) {
+        if (typeof i === "number") {
+            console.log(i)
+        }
+    }
+};
+
+untilNum(5)
