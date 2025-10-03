@@ -76,7 +76,13 @@ const isNegative = (value) => {
 isNegative(10)
 isNegative(-10)
 isNegative('hey')
+// Karizma Problem 8
 
+const triangleArea = (num1, num2) => {
+    const sum = num1 * num2
+    return sum / 2
+};
+console.log(triangleArea(5, 7))
 
 function add(a, b) {
     if (a === b) {
